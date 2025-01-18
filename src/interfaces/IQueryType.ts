@@ -5,5 +5,6 @@ export type IQueryType<T> = {
     data?: T;
     filterQuery?: IGenericFilterQuery;
     config?: HttpClientRequestOptions;
+    captchaToken?: string;
     entityId?: string;
 };
