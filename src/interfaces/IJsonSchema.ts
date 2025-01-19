@@ -85,6 +85,7 @@ export type IJSONSchemaType =
 
 export interface IJsonSchema extends ISchemaBase {
     type?: IJSONSchemaType["type"];
+    enum?: any[];
     // Number/Integer
     minimum?: number;
     maximum?: number;
